@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <center>
+        <asp:Label ID="Label1" runat="server" Text="Shopping Cart" ForeColor="Green" BackColor="Wheat"  Font-Bold="true" Font-Size="XX-Large" BorderColor="Pink" BorderStyle="Inset" BorderWidth="50px"></asp:Label>
+            </center>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div>
+            &copy;Capgemini Copyrights
+        </div>
+    </form>
+</body>
+</html>
